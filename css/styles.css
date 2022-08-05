@@ -195,9 +195,17 @@ padding-top: 94px;
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-top: 30px;
+    margin-left: -30px;
+    min-width: 270px;
+    
+    
 }
 
 .benefits-icon-item{
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 102.34px;
 
 }
 
@@ -219,7 +227,7 @@ padding-top: 94px;
 .benefits-list{
     display: flex;
     padding: 0;
-    margin: 0;
+    margin-top: 30px;
 }
 
 .benefits-item{
