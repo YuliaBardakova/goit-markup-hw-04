@@ -342,7 +342,7 @@ color: var(--title-color);
 .team-soc-icon:focus{
     background-color: var(--header-linke-color);
 }
-.team-soc-link:hover .team-soc-icon,
+.team-soc-link:hover .team-soc-link,
 .team-soc-icon:focus .team-soc-icon{
     background-color: var(--title-color-too);
 }
