@@ -135,6 +135,20 @@ img{
 
     color:var(--hero-text)
 }
+
+.header-list-icon{
+    display: flex;
+    margin-left: auto;
+}
+
+.header-icon-item{
+    
+}
+
+.header-icon{
+    
+
+}
                     /* ------------Hero ------------*/                      
 .hero{
     padding-top: 200px;
@@ -145,9 +159,10 @@ img{
 
     background-color:var(--color-fone);
     background-image: url(../images/logo.jpg);
-    background-image:
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4);
+    background-image:linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4););
+    
     
 }
 
