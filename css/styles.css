@@ -216,7 +216,20 @@ img{
 padding-top: 94px;
 }
 
-.benefits-icon-list{
+.benefits-icon-box{
+    display: flex;   
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+}
+
+
+
+
+/* .benefits-icon-list{
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -234,11 +247,6 @@ padding-top: 94px;
 
 }
 
-.benefits-icon-link{
-
-}
-
-
 .img-item{
     width: 66.96px;
     height: 70px;
@@ -246,7 +254,7 @@ padding-top: 94px;
     background: #F5F4FA;
     border-radius: 4px;
     
-} 
+}  */
 
 
 .benefits-list{
