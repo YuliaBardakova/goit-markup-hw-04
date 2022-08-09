@@ -140,8 +140,8 @@ img{
     color:var(--header-linke-color)
 }
 
-/* .header-mail-link, 
-.header-tell-link {
+.header-mail, 
+.header-tell {
     display: flex;
     align-items: center;
 }
@@ -152,7 +152,7 @@ img{
     margin-right: 10px;
     fill: var(--hero-text)
 }
-
+/* 
 .header-icon-mail:hover,.header-icon-mail:focus,
 .header-icon-tell:hover,.header-icon-tell:focus {
 
