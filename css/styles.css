@@ -125,9 +125,7 @@ img{
     color:var(--hero-text)
 }
 
-.header-tell,
-.footer-tell,
-.footer-mail{
+.header-tell,.footer-tell,.footer-mail{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -135,15 +133,30 @@ img{
 
     color:var(--hero-text)
 }
-.header-tell:hover,
-.header-tell:focus{
+
+.header-tell:hover,.header-tell:focus,
+.header-mail:hover,.header-mail:focus {
 
     color:var(--header-linke-color)
 }
-.header-mail:hover,
-.header-mail:focus{
 
-    color:var(--header-linke-color)
+.header-mail-link, 
+.header-tell-link {
+    display: flex;
+    align-items: center;
+}
+
+.header-icon-mail, 
+.header-icon-tell{
+    display: flex;
+    margin-right: 10px;
+    fill: var(--hero-text)
+}
+
+.header-icon-mail:hover,.header-icon-mail:focus,
+.header-icon-tell:hover,.header-icon-tell:focus {
+
+    fill:var(--header-linke-color)
 }
 
                     /* ------------Hero ------------*/                      
