@@ -349,29 +349,33 @@ color: var(--title-color);
 }
 
 .team-soc-link{
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    background-color:var(--icon-color)
-}
-
-.team-soc-icon{
-    fill:var(--icon-color)
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: var(--icon-color);
 }
 
 .team-soc-link:hover,
+.team-soc-link:focus {
+    fill: #fff;
+    background-color:var(--header-linke-color)
+}
+/* .team-soc-icon{
+    fill:var(--icon-color)
+} */
+
+/* .team-soc-link:hover,
 .team-soc-link:focus{
     background-color: var(--header-linke-color);
 }
 
 .team-soc-link:hover .team-soc-icon,
 .team-soc-link:focus .team-soc-icon{
-    background-color: var(--title-color-too);
-}
+    background-color: var(--title-color-too); */
+
 
 
                          /* ---------------consumers----------- */
