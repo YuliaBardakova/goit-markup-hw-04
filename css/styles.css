@@ -346,6 +346,7 @@ color: var(--title-color);
     justify-content: center;
     gap: 10px;
     margin-top: 16px;
+    padding-left: -40px;
 }
 
 .team-soc-link{
@@ -372,18 +373,20 @@ color: var(--title-color);
 }
 
 .consumers-title {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     font-weight: 700;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
-    margin: 0;
+    
+    
 }
 
 .consumers-list {
     display: flex;
     gap: 30px;
+    justify-content: center;
 }
 
 .consumers-link {
