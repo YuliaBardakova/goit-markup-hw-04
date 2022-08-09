@@ -363,20 +363,6 @@ color: var(--title-color);
     fill: #fff;
     background-color:var(--header-linke-color)
 }
-/* .team-soc-icon{
-    fill:var(--icon-color)
-} */
-
-/* .team-soc-link:hover,
-.team-soc-link:focus{
-    background-color: var(--header-linke-color);
-}
-
-.team-soc-link:hover .team-soc-icon,
-.team-soc-link:focus .team-soc-icon{
-    background-color: var(--title-color-too); */
-
-
 
                          /* ---------------consumers----------- */
 
@@ -389,17 +375,15 @@ color: var(--title-color);
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    font-weight: 700;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
+    margin: 0;
 }
 
 .consumers-list {
     display: flex;
     gap: 30px;
-}
-
-.consumers-item {
-
 }
 
 .consumers-link {
