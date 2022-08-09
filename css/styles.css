@@ -292,6 +292,7 @@ color: var(--title-color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .team-member{
     font-weight: 500;
     font-size: 16px;
@@ -316,9 +317,16 @@ color: var(--title-color);
 
 .team-list{
     display: flex;
-    gap: 30px;
+    /* gap: 30px;
     padding: 0;
-    margin: 0;
+    margin: 0; */
+}
+.team-item {
+    margin-right: 30px;
+}
+
+.team-item:last-child {
+    margin-right: 0px;
 }
 
 .time-fio{
@@ -346,6 +354,7 @@ color: var(--title-color);
     display: flex;
     align-items: center;
     justify-content: center;
+    
     background-color:var(--title-color-too);
 }
 
