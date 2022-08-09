@@ -122,11 +122,11 @@ img{
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color:var(--header-linke-color)
+    color:var(--hero-text)
 }
 
-.header-tel,
-.footer-tel,
+.header-tell,
+.footer-tell,
 .footer-mail{
     font-weight: 500;
     font-size: 14px;
@@ -135,20 +135,17 @@ img{
 
     color:var(--hero-text)
 }
+.header-tell:hover,
+.header-tell:focus{
 
-.header-list-icon{
-    display: flex;
-    margin-left: auto;
+    color:var(--header-linke-color)
+}
+.header-mail:hover,
+.header-mail:focus{
+
+    color:var(--header-linke-color)
 }
 
-.header-icon-item{
-    
-}
-
-.header-icon{
-    
-
-}
                     /* ------------Hero ------------*/                      
 .hero{
     padding-top: 200px;
