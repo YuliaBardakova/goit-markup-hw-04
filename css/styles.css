@@ -50,7 +50,7 @@ img{
         /* -----------------Header ---------------*/
 
 .header{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ececec;
 }
 
 .header-nav,.main-nav{
@@ -503,7 +503,8 @@ color:var(--title-color-too);
                /* ------------Portfolio------------ */
 
 .galery{
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .menu-item{
@@ -559,8 +560,8 @@ color:var(--title-color-too);
     justify-content:center;
     padding: 0;
     margin: 0;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    /* padding-top: 94px; */
+    /* padding-bottom: 50px; */
     
 }
 .menu-item{
@@ -579,7 +580,7 @@ color:var(--title-color-too);
     flex-wrap: wrap;
     gap: 30px;
     padding: 0;
-    margin: 0;
+    margin-top: 50px;
 }
 .galery-item{
     width: calc((100% - 60px)/3);
